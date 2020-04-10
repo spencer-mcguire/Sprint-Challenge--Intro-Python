@@ -1,0 +1,19 @@
+Thoughts 
+
+
+
+create Class 'City'
+            | name 
+            | lat 
+            | lon
+
+take csv.reader() to read csv file
+
+assign the file to a variable, pass the variable to the reader 
+assign the reader a variable to be called later 
+        - csv.reader(file_name, delimiter=' ', quotechar='|')
+        - loop the variable for the reader 
+        - append the output to the cities list 
+
+print the cities 
+    - __str__ to do so or __repr__
